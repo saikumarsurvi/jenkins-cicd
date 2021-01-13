@@ -1,7 +1,7 @@
 pipeline {
 agent any
 stages {
-stage('Build Test') {
+stage('Build') {
 steps {
 echo 'Application in Testing Phase…'
 bat 'mvn clean test'
