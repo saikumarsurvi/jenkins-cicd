@@ -60,6 +60,7 @@
                     </execution>
                 </executions>
                 <configuration>
+                <runtimeVersion>4.3.0</runtimeVersion>
                     <coverage>
                         <runCoverage>true</runCoverage>
                         <formats>
